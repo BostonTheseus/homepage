@@ -20,6 +20,11 @@
 
 body,html{
 		height: 100%;
+		font-family: Georgia;
+	}
+	
+	.this_color {
+		color: #FFFF00;
 	}
 
 	/* remove outer padding */
@@ -33,6 +38,7 @@ body,html{
 	nav.sidebar.navbar {
 		border-radius: 0px;
 	}
+	
 
 	nav.sidebar, .main{
 		-webkit-transition: margin 300ms ease-out;
@@ -67,12 +73,14 @@ body,html{
 		/*Center Brand*/
 		nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
 			margin-left: 0px;
+			color: #0073AD;
 		}
 		/*Center Brand*/
 		nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
 			text-align: center;
 			width: 100%;
 			margin-left: 0px;
+			background-color: #FFFF00;
 		}
 
 		/*Center Icons*/
@@ -84,6 +92,11 @@ body,html{
 		.external-icon {
 			width: 32px;
 			margin: 4px;
+		}
+		
+		/*Glyphicon Colors*/
+		.glyph_color {
+			color: #000;
 		}
 
 		/*adds border top to first nav box */
@@ -126,6 +139,7 @@ body,html{
 			float: left;
 			z-index: 8000;
 			margin-bottom: 0px;
+			background-color: #2548b4;
 		}
 
 		/*give sidebar 100% width;*/
@@ -165,7 +179,7 @@ body,html{
 	}
 
 	nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
-		color: #CCC;
+		color: #2548b4;
 		background-color: transparent;
 	}
 
@@ -175,3 +189,4 @@ body,html{
 	section{
 		padding-left: 15px;
 	}
+	
