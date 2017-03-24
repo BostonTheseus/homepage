@@ -79,6 +79,12 @@ body,html{
 		nav.sidebar a{
 			padding-right: 13px;
 		}
+		
+		/*External Link Icons*/
+		.external-icon {
+			width: 32px;
+			margin: 4px;
+		}
 
 		/*adds border top to first nav box */
 		nav.sidebar .navbar-nav > li:first-child{
