@@ -73,14 +73,14 @@ body,html{
 		/*Center Brand*/
 		nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
 			margin-left: 0px;
-			color: #0073AD;
+			color: #D60818;
 		}
 		/*Center Brand*/
 		nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
 			text-align: center;
 			width: 100%;
 			margin-left: 0px;
-			background-color: #FFFF00;
+			background-color: #006AA0;
 		}
 
 		/*Center Icons*/
@@ -139,7 +139,7 @@ body,html{
 			float: left;
 			z-index: 8000;
 			margin-bottom: 0px;
-			background-color: #2548b4;
+			background-color: #E8FFFF;
 		}
 
 		/*give sidebar 100% width;*/
@@ -179,7 +179,7 @@ body,html{
 	}
 
 	nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
-		color: #2548b4;
+		color: #19FA33;
 		background-color: transparent;
 	}
 
