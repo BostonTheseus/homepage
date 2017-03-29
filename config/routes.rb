@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   root 'portfolios#index'
+  
+  get '/resume', to: 'portfolios#resume'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
