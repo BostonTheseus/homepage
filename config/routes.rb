@@ -2,6 +2,10 @@ Rails.application.routes.draw do
   root 'portfolios#index'
   
   get '/resume', to: 'portfolios#resume'
+  get '/contact', to: 'portfolios#contact'
+  get 'published', to: 'portfolios#published'
+  get '/poetry', to: 'portfolios#poetry'
+  get '/fiction', to: 'portfolios#fiction'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

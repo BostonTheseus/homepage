@@ -6,4 +6,16 @@ class PortfoliosController < ApplicationController
     def resume
     end
     
+    def contact
+    end
+    
+    def published
+    end
+    
+    def poetry
+    end
+    
+    def fiction
+    end
+    
 end
