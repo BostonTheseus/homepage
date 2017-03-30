@@ -18,4 +18,7 @@ class PortfoliosController < ApplicationController
     def fiction
     end
     
+    def holycity
+    end
+    
 end
