@@ -4,6 +4,7 @@ class PortfoliosController < ApplicationController
     end
     
     def resume
+        
     end
     
     def contact

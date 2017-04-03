@@ -3,11 +3,11 @@ Rails.application.routes.draw do
   
   get '/resume', to: 'portfolios#resume'
   get '/contact', to: 'portfolios#contact'
-  get 'published', to: 'portfolios#published'
+  get '/published', to: 'portfolios#published'
   get '/poetry', to: 'portfolios#poetry'
   get '/fiction', to: 'portfolios#fiction'
   get '/holycity', to: 'portfolios#holycity', :as => 'TheHolyCity'
-
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
