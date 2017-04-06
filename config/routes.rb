@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get '/poetry', to: 'portfolios#poetry'
   get '/fiction', to: 'portfolios#fiction'
   get '/holycity', to: 'portfolios#holycity', :as => 'TheHolyCity'
+  get '/about', to: 'portfolios#about'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

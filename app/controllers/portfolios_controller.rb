@@ -22,9 +22,4 @@ class PortfoliosController < ApplicationController
     def holycity
     end
     
-    def pdf
-        pdf_filename = File.join(Rails.root, "Resume.pdf")
-        send_file(pdf_filename, :filename => "Resume.pdf", :type => "application/pdf")
-    end
-    
 end
