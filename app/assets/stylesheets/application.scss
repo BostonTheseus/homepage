@@ -27,9 +27,6 @@ body,html{
 		color: #701818;
 	}
 	
-	a:hover {
-		color: #701818;
-	}
 
 	/* remove outer padding */
 	.main .row{
@@ -71,13 +68,9 @@ body,html{
 
 		/*lets nav bar to be showed on mouseover*/
 		nav.sidebar:hover + .main{
-			color: #701818;
 			margin-left: 200px;
 		}
 		
-		a:hover {
-			color: #701818;
-		}
 
 		/*Center Brand*/
 		nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
@@ -94,7 +87,6 @@ body,html{
 
 		/*Center Icons*/
 		nav.sidebar a a:hover{
-			color: #701818;
 			padding-right: 13px;
 		}
 		
@@ -288,13 +280,30 @@ body,html{
 		margin-left: 15px;
 	}
 	
-	a:hover {
-		color: #701818;
-	}
-	
 	.navbar-default .navbar-nav>li>a:hover {
   		background-color: #B0B0B0;
   		color: red;
 	}
 	
 	ul.nav a:hover { color: #00ff55 !important; }
+	
+	/* Splurty logo */
+	.circle {
+    	font-weight:bold;
+    	font-style: italic;
+    	position: relative;
+    	border-radius: 100%;
+    	background: #f84342;
+    	border: 1px solid #F7F7F7;
+    	width: 85px;
+    	height: 85px;
+    	margin: 15px 15px;
+    	text-align: center;
+    	color: #FFF;
+    	font-size: 10px;
+    	line-height: 16px;
+    	cursor: pointer;
+    	transform:rotate(11deg);
+    	-ms-transform:rotate(11deg); /* IE 9 */
+    	-webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
+	}
