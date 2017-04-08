@@ -312,3 +312,45 @@ body,html{
 	.about_offset {
 		margin-left: 25px;
 	}
+	
+	/* Holy City Styles */
+	.holy_city_main {
+		line-height: 65%;
+		margin-left: 150px;
+		color: #000;
+		p {
+			text-indent: 63px;
+			font-size: 15px;
+		}
+	}
+	
+	.link_style_hc:hover {
+		text-decoration: none;
+		color: #000;
+	}
+	
+	.link_style_hc {
+		color: #000;
+		text-indent: 50px;
+	}
+	
+	#section {
+		font-style: italic;
+		text-indent: 25px;
+	}
+	
+	#title_holy {
+		text-indent: 100px;
+		font-size: 45px;
+	}
+	
+	.holy_city_poems {
+		line-height: 65%;
+		margin-left: 100px;
+		margin-top: 75px;
+		color: #000;
+		p {
+			text-indent: 63px;
+			font-size: 18px;
+		}
+	}
