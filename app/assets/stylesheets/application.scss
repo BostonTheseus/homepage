@@ -131,6 +131,7 @@ body,html{
 		/*colors dropdown box text */
 		.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
 			color: #777;
+			height: auto;
 		}
 
 		/*gives sidebar width/height*/
@@ -349,6 +350,7 @@ body,html{
 		margin-left: 100px;
 		margin-top: 75px;
 		color: #000;
+		margin-bottom: 175px;
 		p {
 			text-indent: 63px;
 			font-size: 18px;
@@ -385,4 +387,21 @@ body,html{
 	
 	#lt7 {
 		text-indent: 215px;
+	}
+	
+	#diptych {
+		text-indent: 80px;
+	}
+	
+	#hajj {
+		font-style: italic;
+		text-indent: 75px;
+	}
+	
+	#ode2 {
+		text-indent: 110px;
+	}
+	
+	#ode1 {
+		text-indent: 85px;
 	}

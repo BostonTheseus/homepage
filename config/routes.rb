@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get '/published',        to: 'portfolios#published'
   get '/poetry',           to: 'portfolios#poetry'
   get '/fiction',          to: 'portfolios#fiction'
-  get '/holycity',         to: 'portfolios#holycity', :as => 'TheHolyCity'
+  get '/holycity',         to: 'portfolios#holycity'
   get '/about',            to: 'portfolios#about'
   get '/cythera',          to: 'holy_city#cythera'
   get '/last_train',       to: 'holy_city#last_train'
