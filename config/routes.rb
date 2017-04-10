@@ -30,6 +30,17 @@ Rails.application.routes.draw do
   get '/selection',        to: 'holy_city#selection'
   get '/holy',             to: 'holy_city#holy'
   get '/fenway',           to: 'holy_city#fenway'
+  get '/decalogue',        to: 'holy_city#decalogue'
+  get '/decalogue_i',      to: 'holy_city#decalogue_i'
+  get '/decalogue_ii',     to: 'holy_city#decalogue_ii'
+  get '/decalogue_iii',    to: 'holy_city#decalogue_iii'
+  get '/decalogue_iv',     to: 'holy_city#decalogue_iv'
+  get '/decalogue_v',      to: 'holy_city#decalogue_v'
+  get '/decalogue_vi',     to: 'holy_city#decalogue_vi'
+  get '/decalogue_vii',    to: 'holy_city#decalogue_vii'
+  get '/decalogue_viii',   to: 'holy_city#decalogue_viii'
+  get '/decalogue_ix',     to: 'holy_city#decalogue_ix'
+  get '/decalogue_x',      to: 'holy_city#decalogue_x'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
