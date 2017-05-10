@@ -412,3 +412,15 @@ body,html{
 		text-indent: 190px;
 		font-size: 70px;
 	}
+	
+	/* Page selection bar controls */
+	.pager {
+		margin-right: 400px;
+	}
+	
+	.previous:hover .next:hover {
+			text-decoration: none !important;
+	}
+	
+	/*Drop-Up menu styles */
+	
