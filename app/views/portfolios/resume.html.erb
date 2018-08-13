@@ -1,5 +1,4 @@
 <h1>My Resume</h1>
-<h3><%= link_to 'View as PDF', "/cv.pdf" %></h3>
-<%= image_tag 'Resume1.png', :class => "relate_sidebar_image", :size => "1100x1424"%>
-<%= image_tag 'Resume2.png', :class => "relate_sidebar_image", :size => "1100x1424" %>
+<h3><%= link_to "View as PDF", asset_path("/Resume.pdf", skip_pipeline: true), target: :_blank %></h3>
+<%= image_tag 'resume_image.png', :class => "relate_sidebar_image", :size => "1275x2100"%>
 <br />
